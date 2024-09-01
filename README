@@ -1,0 +1,23 @@
+# 模型可以去网址： https://alphacephei.com/vosk/models 下载
+
+# 离线版语音转文字 maven导入以下包
+<!-- 获取音频信息 -->
+<dependency>
+ <groupId>org</groupId>
+ <artifactId>jaudiotagger</artifactId>
+ <version>2.0.3</version>
+</dependency>
+ 
+<!-- 语音识别 -->
+<dependency>
+ <groupId>net.java.dev.jna</groupId>
+ <artifactId>jna</artifactId>
+ <version>5.7.0</version>
+</dependency>
+<dependency>
+ <groupId>com.alphacephei</groupId>
+ <artifactId>vosk</artifactId>
+ <version>0.3.32</version>
+</dependency>
+
+# 注意new Model("模型路径")是你下载的模型解压后的地址
